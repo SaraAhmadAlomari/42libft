@@ -10,7 +10,7 @@ char *ft_strjoin(char const *s1, char const *s2)
         return (NULL);
     s1_len = ft_strlen(s1);
     s2_len = ft_strlen(s2);
-    new =  malloc(s1_len + s2_len + 1);
+    new = malloc(s1_len + s2_len + 1);
     if(!new)
         return(NULL);
     ft_strlcpy(new, s1, s1_len + 1);
